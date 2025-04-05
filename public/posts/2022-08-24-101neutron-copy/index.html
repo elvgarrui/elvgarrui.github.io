@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="IE = edge, chrome = 1">
+
+<title>
+  My journey at Linux System Roles with GSoC @ Elvs Coding Log
+</title>
+
+<meta name="description" content="Linux System Roles are a collection of roles and modules that assist Linux…">
+
+<meta name="generator" content="Hugo 0.126.2">
+
+<link rel="canonical" href="http://localhost:1313/posts/2022-08-24-101neutron-copy/">
+
+<meta property="og:type" content="website">
+
+<meta property="og:locale" content="en">
+<meta property="og:title" content='My journey at Linux System Roles with GSoC @ Elvs Coding Log'>
+<meta property="og:site_name" content="Elvs Coding Log">
+<meta property="og:description" content="Linux System Roles are a collection of roles and modules that assist Linux…">
+<meta property="og:url" content="http://localhost:1313/posts/2022-08-24-101neutron-copy/">
+
+<meta property="og:image" content="">
+<meta name="twitter:image" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="shortcut icon" href="/assets/imgs/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/apple-touch-icon.png">
+
+
+
+
+<link rel="stylesheet" href="/assets/scss/custom.min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/scss/main.min.css">
+
+
+
+
+<script>
+  (function () {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  })();
+</script>
+
+
+
+
+<style>
+  @font-face {
+    font-family: 'jicaleta';
+    src: url('/assets/fonts/Jicaleta-Regular.83dd0e7b882bf278618f3db4d4f27c08f8af4d569257a4378e51e3f602e135ca.woff2') format('woff2'),
+    url('/assets/fonts/Jicaleta-Regular.f075ee85c86402151d90c4704f7d86ff7ed52e49e7da47e201ee4f7e6f76d2ff.woff') format('woff');
+  }
+</style>
+
+
+
+
+
+<style>
+  @font-face {
+    font-family: 'Fira Code';
+    src: url('/assets/fonts/FiraCode-Regular.a6ce59520b90e15d7062ffef214f94c8add5a4085c0bbb1683602ef227a4d1fe.woff2') format('woff2'),
+    url('/assets/fonts/FiraCode-Regular.e4b5a20d572b7f718d64c884e4e48cb7e45303ab50722011469ee2e1964bff6d.woff') format('woff');
+  }
+</style>
+
+
+
+
+
+<script src="/assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="navbar-top" id="top">
+            <div class="navbar-logo">
+                <a href="http://localhost:1313/" class="logo-text" style="font-family: jicaleta;">
+                    
+                    Elvs Coding Log
+                    
+                </a>
+            </div>
+            <div class="navbar-burger" id="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-link-list">
+                
+                <a href="/" class="navbar-link-item">Home</a>
+                
+                <a href="/about" class="navbar-link-item">About</a>
+                
+                <a href="/posts" class="navbar-link-item">Archives</a>
+                
+                <a href="/search" class="navbar-link-item">Search</a>
+            </div>
+            <div class="theme-toggle">
+                <div id="theme-toggle-btn">陰</div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <main>
+    
+
+
+
+<h1>My journey at Linux System Roles with GSoC</h1>
+
+<div class="article-tag">
+  
+  
+  
+  <time datetime="2020-08-27T21:13:12">Posted on 2020-08-27&nbsp;,&nbsp;</time>
+  
+  <span class="article-author">by&nbsp;Elvira</span>
+  
+</div>
+
+<p>Linux System Roles are a collection of roles and modules that assist Linux
+administrators in the configuration of GNU/Linux subsystems through Ansible.
+There are roles for managing different parts of the systems such as selinux,
+storage and networking.</p>
+<h3 id="improving-the-network-linux-system-role">Improving the Network Linux System Role</h3>
+<p>My main objective was to improve the Network Linux System Role. Although my
+proposal covered the many different tasks that were suggested for the project,
+my mentors and I decided to better focus on improving the integration testing
+of the project. Therefore, most of my contributions were related to this
+matter. Adding Pytest as an integration testing tool is the most remarkable addition
+to the project. Below you can see the detailed list of my contributions:</p>
+<h4 id="merged-prs">Merged PRs</h4>
+<p>Started before 1st May, 2020:</p>
+<ul>
+<li><a href="https://github.com/linux-system-roles/network/pull/207"><strong>PR207 - Separate debug and info logs from
+warnings</strong></a>: Fixes
+<a href="https://github.com/linux-system-roles/network/issues/29">Issue 29</a>.</li>
+</ul>
+<p>After 1st May, 2020:</p>
+<ul>
+<li>
+<p><a href="https://github.com/linux-system-roles/network/pull/226"><strong>PR226 -  Update contributing.md with steps to
+contributing</strong></a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/linux-system-roles/network/pull/223"><strong>PR223 - Change ethtool features to use
+underscores</strong></a>.
+Refers to <a href="https://github.com/linux-system-roles/network/issues/206">Issue
+206</a>. The role now
+accepts properties written with underscores or dashes, and fails if both options
+are mixed.</p>
+</li>
+<li>
+<p><a href="https://github.com/linux-system-roles/network/pull/237"><strong>PR237 - Fail if state and persistent_state are
+incompatible</strong></a>:
+Fixes <a href="https://github.com/linux-system-roles/network/issues/205">Issue 205</a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/linux-system-roles/network/pull/251"><strong>PR251 - Fix error message format</strong></a>.</p>
+</li>
+<li>
+<p><a href="https://github.com/linux-system-roles/network/pull/260"><strong>PR260 - Add Pytest integration
+tests</strong></a>: This PR
+contains two different commits. The first one creates the script for testing
+and the <a href="http://elviragruiz.net/2020/07/20/mocking-ansible-python.html">mocking of the Ansible
+runtime</a>. The
+second one consists of playbooks that allow Pytest to run in the
+project-internal test-harness. The test-harness allows the execution of these
+tests in different Linux distributions such as CentOS, Fedora and RHEL.</p>
+</li>
+</ul>
+<h3 id="todo">Todo</h3>
+<p>There are some tasks that still need to be finished. The most important is to
+add Python 2 support to the Pytest integration testing, which is needed to be
+able to test older releases of THEL or CentOS. After that, I also want to
+finish <a href="https://github.com/linux-system-roles/network/issues/206">Issue 206</a> by
+adding warnings when a deprecated property is used.</p>
+<h3 id="--summer-is-ending-">🌤️  Summer is ending&hellip; 🌤️</h3>
+<p>It has been an intense but rewarding summer, and I&rsquo;ve learnt a lot. I&rsquo;ve been able to work directly with awesome professionals. I&rsquo;m willing to continue contributing to Linux System Roles and to improve my skills as a software engineer!!</p>
+<p><em>Thanks to Fedora and all the mentors. Thanks to Till for being so understanding and patient with me. I really appreciate all the time you have dedicated to my mentoring.</em></p>
+
+
+<div class="article-license">
+  
+  
+  
+  <span>This article is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>.</span>
+  
+</div>
+
+  </main>
+
+  
+<div class="backtotop">
+    <div id="back-to-top" onclick="scrollToTop()">Back To Top</div>
+</div>
+
+
+  <footer class="footer">
+    <span>&copy; 2025 Elvira García Ruiz  </span>
+    <div>
+        
+        <img src="/assets/imgs/birdimini32.gif" alt="Hero Image" loading="lazy">
+    
+    </div>
+
+</footer>
+
+  
+    
+      
+      <script src="/assets/js/theme-toggle.js"></script>
+      
+    
+  
+</body>
+
+</html>

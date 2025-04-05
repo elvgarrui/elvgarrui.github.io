@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2022-08-24T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2022-08-24-101neutron/</loc>
+    <lastmod>2022-08-24T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2022-08-24T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2020-08-27-gsoc-summary/</loc>
+    <lastmod>2020-08-27T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2020-08-27-gsoc-isolating-network-role/</loc>
+    <lastmod>2020-07-20T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2020-06-10-debugging-the-network-system-role/</loc>
+    <lastmod>2020-06-10T21:13:12+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url>
+</urlset>

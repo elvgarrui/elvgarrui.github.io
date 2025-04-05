@@ -1,0 +1,9 @@
+<footer class="footer">
+    <span>&copy; {{ now.Year }} {{ site.Copyright}} {{ index $.Site.Data.l10n "all_rights_reserved" }}</span>
+    <div>
+        {{ $birdi := resources.GetMatch "/assets/imgs/birdi*" }}
+        <img src="{{ $birdi.RelPermalink }}" alt="Hero Image" loading="lazy">
+    
+    </div>
+
+</footer>

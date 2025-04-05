@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Elvs Coding Log</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Elvs Coding Log</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Elvira García Ruiz</copyright>
+    <lastBuildDate>Wed, 24 Aug 2022 21:13:12 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing your first bug in Neutron: 101</title>
+      <link>http://localhost:1313/posts/2022-08-24-101neutron/</link>
+      <pubDate>Wed, 24 Aug 2022 21:13:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2022-08-24-101neutron/</guid>
+      <description>This post is a really basic introduction on how to start developing at Neutron. The goal is to provide an idea of what the workflow is and which tools you need when fixing a bug in the project. Hopefully, I can help anyone interested in making a first contribution to the project! Please use this together with Neutron&amp;rsquo;s official Contributor&amp;rsquo;s Guide.&#xA;This blog post assumes you are familiar with git and python coding.</description>
+    </item>
+    <item>
+      <title>My journey at Linux System Roles with GSoC</title>
+      <link>http://localhost:1313/posts/2020-08-27-gsoc-summary/</link>
+      <pubDate>Thu, 27 Aug 2020 21:13:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2020-08-27-gsoc-summary/</guid>
+      <description>Linux System Roles are a collection of roles and modules that assist Linux administrators in the configuration of GNU/Linux subsystems through Ansible. There are roles for managing different parts of the systems such as selinux, storage and networking.&#xA;Improving the Network Linux System Role My main objective was to improve the Network Linux System Role. Although my proposal covered the many different tasks that were suggested for the project, my mentors and I decided to better focus on improving the integration testing of the project.</description>
+    </item>
+    <item>
+      <title>Isolating the Network Role: How to mock the Ansible runtime</title>
+      <link>http://localhost:1313/posts/2020-08-27-gsoc-isolating-network-role/</link>
+      <pubDate>Mon, 20 Jul 2020 21:13:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2020-08-27-gsoc-isolating-network-role/</guid>
+      <description>Summary In this post I will explain a bit about my most relevant work during July at GSoC: Running an Ansible module directly from Python and how and why it can be useful to mock Python modules sometimes.&#xA;Introduction My main task in the GSoC project is to add Pytest to the Network Role at Linux System Roles. This will lead to a better coverage of tests, since all the utilities of pytest will be available for testing the module, instead of being limited to the execution from a playbook.</description>
+    </item>
+    <item>
+      <title>Debugging the Network System Role</title>
+      <link>http://localhost:1313/posts/2020-06-10-debugging-the-network-system-role/</link>
+      <pubDate>Wed, 10 Jun 2020 21:13:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2020-06-10-debugging-the-network-system-role/</guid>
+      <description>On this post I want to show the current process of debugging for the network system role and the reasons to add Pytest as tool for the integration tests, which is my task during the summer!&#xA;Intro to the Network Role Since Linux System Roles is executed with Ansible, it is nice to take a look on what Ansible is. According to their main page: &amp;ldquo;Ansible is an IT automation tool.</description>
+    </item>
+  </channel>
+</rss>
