@@ -24,4 +24,24 @@
     }
     requestAnimationFrame(scroll);
   };
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("div.code-wrapper").forEach((container) => {
+      const btn = document.createElement("button");
+      btn.className = "copy-code-btn";
+      btn.textContent = "Copy";
+      container.appendChild(btn);
+      btn.addEventListener("click", async () => {
+        const code = container.querySelector("code").innerText;
+        try {
+          await navigator.clipboard.writeText(code);
+          btn.classList.add("copied");
+          btn.textContent = "\u2713 Copied";
+          setTimeout(() => btn.classList.remove("copied"), 2e3);
+        } catch (err) {
+          btn.textContent = "Failed";
+          setTimeout(() => btn.textContent = "Copy", 2e3);
+        }
+      });
+    });
+  });
 })();
