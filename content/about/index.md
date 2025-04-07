@@ -13,7 +13,7 @@ Working remotely can leave a bit of a sense of loneliness and I find them nice t
 balance those *sad vibes*.
 
 On my free time I like doing some silly art (like the little bird you can see on
-the bottom-right of this page!), petting any animal that exists, playing games
+the bottom-right of this page), petting any animal that exists, playing games
 and, above all, spending quality time with family and friends.
 
 
