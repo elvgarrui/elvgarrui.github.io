@@ -51,3 +51,21 @@ html{
   --button-text: "☾" !important;
   --filter: invert(100%);
 }
+
+@charset "UTF-8";
+
+.article {
+    &-license {
+        border-top: 1px solid var(--color-primary);
+        font-size: 0.86rem;
+        margin-top: 4rem;
+        padding: 1rem 0;
+
+        &::before {
+            content: "" !important;
+            margin-right: 5px;
+            font-weight: regular !important;
+            color: #000;
+        }
+    }
+}
