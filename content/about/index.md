@@ -12,7 +12,7 @@ Beside technical work, I also enjoy side ~quests~ tasks. This can include coordi
 or improving communication and/or knowledge-sharing whithin a team. Working remotely can 
 leave a bit of a sense of loneliness and I find them nice to find some *balance*.
 
-On 2022 I attended OpenInfraSummit Berlin to give a talk: [Contributing to Neutron 101](https://www.youtube.com/watch?v=BkPVGYo5wco).
+On 2022 I attended OpenInfraSummit Berlin to give a talk explaining how to contribute to Neutron.
 I have also given [some talks](https://nitter.net/sugus_etsii/status/1497285455234146311#m)
 at my local university related to open source, because I belonged to the free and open
 source software association (SUGUS GNU/LINUX) during my student period.

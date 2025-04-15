@@ -23,10 +23,13 @@ a strong{
 a{
   font-weight: 500 !important;
 }
-
+code{
+  font-size: 0.85rem !important;
+}
 html{
   font-family: "Outfit", sans-serif !important;
 }
+
 
 // Light theme
 [data-theme="light"] {
@@ -51,9 +54,6 @@ html{
   --button-text: "☾" !important;
   --filter: invert(100%);
 }
-
-@charset "UTF-8";
-
 .article {
     &-license {
         border-top: 1px solid var(--color-primary);
